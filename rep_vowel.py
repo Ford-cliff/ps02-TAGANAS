@@ -4,7 +4,7 @@ vowels = "aeiouAEIOU"
 modified_sentence = ""
 
 for letter in sentence:
-    if letter in sentence:
+    if letter in vowels:
         modified_sentence += letter.upper()
     else:
         modified_sentence += letter
